@@ -62,7 +62,7 @@ $run=mysqli_query($conn,$q1);
 if($run)
 {
   
-  header("location: loginpage.php");
+  header("location: index.php");
 }
 else
 {
