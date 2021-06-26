@@ -56,10 +56,10 @@ h1{
 					<input type="submit" name="submit" value="Login">
 				</div>
 				<?php
-$host="localhost";
-$dbusername="root";
-$dbpassword="";
-$db="random1";
+$host="remotemysql.com";
+$dbusername="M2M1cnixjh";
+$dbpassword="RMelnhl7c8";
+$db="M2M1cnixjh";
 $cn=mysqli_connect($host, $dbusername, $dbpassword, $db);
 
 

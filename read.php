@@ -313,10 +313,11 @@ color:white;
     </body>
     </html>
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "random1";
+
+$servername = "remotemysql.com";
+$username = "M2M1cnixjh";
+$password = "RMelnhl7c8";
+$dbname = "M2M1cnixjh";
 $name='';
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);

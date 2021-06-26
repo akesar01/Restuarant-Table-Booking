@@ -13,7 +13,11 @@
  $image='';
 
  session_start();
-$conn=mysqli_connect("localhost","root","","random1");
+ $host="remotemysql.com";
+$dbusername="M2M1cnixjh";
+$dbpassword="RMelnhl7c8";
+$db="M2M1cnixjh";
+$conn=mysqli_connect($host, $dbusername, $dbpassword, $db);
 
 
 if(isset($_POST['submit']))

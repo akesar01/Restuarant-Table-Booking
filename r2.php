@@ -11,12 +11,12 @@ $msg2 ='';
 $msg3='';
 $msg4='';
 $msg6='';
-$host="localhost";
-$tablesleft =10;
 
-$dbusername="root";
-$dbpassword="";
-$db="random1";
+$tablesleft =10;
+$host="remotemysql.com";
+$dbusername="M2M1cnixjh";
+$dbpassword="RMelnhl7c8";
+$db="M2M1cnixjh";
 $cn = mysqli_connect($host, $dbusername, $dbpassword, $db);
 
 if(isset($_POST['submit'])){
